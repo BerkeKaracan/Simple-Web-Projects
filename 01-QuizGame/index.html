@@ -3,9 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
     <title>Quiz Game</title>
   </head>
   <body>
+    <div class="big-box">
+      <div class="main-box js-main-box">
+        <div class="start-box js-start-box">
+          <p class="start-box-header">Quiz Time!</p>
+          <div class="explain-message">
+            Test your knowledge with these fun questions
+          </div>
+          <button class="start-button js-start-button">Start Quiz</button>
+        </div>
+        <div class="questions-box js-questions-box">
+          <div class="quiz-box js-quiz-box">
+            <div class="questions-box-header">
+              <p class="question js-question"></p>
+            </div>
+            <div class="questions-info">
+              <p class="info-1">
+                Question
+                <span class="question-number js-question-number">1</span> of
+                <span class="total-questions js-total-questions">5</span>
+              </p>
+              <p class="score js-score">
+                Score: <span class="total-score js-total-score">0</span>
+              </p>
+            </div>
+          </div>
+          <div class="answers-box js-answers-box"></div>
+          <div class="progress-bar-box">
+            <div class="progress-bar">
+              <div class="progress js-progress"></div>
+            </div>
+          </div>
+        </div>
+        <div class="result-box js-result-box">
+          <p class="result-box-header">Quiz Results</p>
+          <div class="result-message-box">
+            <p class="result">
+              You scored <span class="final-score js-final-score">0</span> out
+              of <span class="max-score js-max-score">5</span>
+            </p>
+            <p class="result-message js-result-message"></p>
+          </div>
+          <button class="finish-button js-finish-button">Restart Quiz</button>
+        </div>
+      </div>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>
