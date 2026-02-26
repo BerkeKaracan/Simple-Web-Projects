@@ -27,4 +27,4 @@ The project ideas and base designs in this repository are inspired by the tutori
 
 ---
 
-_Built with discipline during night shifts._ 🌙
+
