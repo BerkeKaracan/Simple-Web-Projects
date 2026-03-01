@@ -101,15 +101,15 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: sans-serif;
+  width: 100%;
   font-size: 12px;
   padding: 0px 10px;
   color: #666;
-  gap: 32vw;
 }
 .answers-box {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 1vw;
   margin-bottom: 4vw;
   position: relative;
   width: 80%;
@@ -125,11 +125,8 @@ body {
   text-align: left;
   transition: all 0.3s ease;
 }
-.answers-button:hover {
-  background-color: #eadbc8;
-  border-color: #dac0ae;
-}
-.answers-button-correct {
+.answers-button.answers-button-correct,
+.answers-button.answers-button-correct:hover {
   background-color: #e6fff0;
   border-color: #a3f0c4;
   color: #28a745;
@@ -170,25 +167,28 @@ body {
 .result-box-header {
   color: #e86a33;
   margin-bottom: 6vw;
+  font-size: 28px;
 }
 .result-message-box {
   width: 100%;
   height: auto;
   padding: 1vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #f8f0e5;
   border-radius: 8px;
   padding: 4vw;
   margin-bottom: 8vw;
 }
 .result {
-  font-size: 18px;
+  font-size: 24px;
   color: #333;
   margin-bottom: 16px;
 }
 .result-message {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   color: #e86a33;
 }
