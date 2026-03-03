@@ -20,7 +20,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 3vw;
-  width: 80%;
+  width: 90%;
   height: auto;
   background-color: #e1f5fe;
   background-color: black;
@@ -37,26 +37,52 @@ header {
 }
 .line {
   display: flex;
-  width: 100%;
+  width: 60%;
   height: 0.2vw;
   background-color: blue;
   margin-top: 0.2vw;
-  margin-bottom: 1vw;
+  margin-bottom: 4vw;
 }
 .random-button {
-  width: 30vw;
+  width: 38vw;
   height: auto;
   display: flex;
   flex-direction: row;
   gap: 1vw;
-  padding: 0.8vw;
+  padding: 2vw;
   padding-left: 2vw;
   padding-right: 2vw;
   border: 1px solid transparent;
   border-radius: 40px;
   background: linear-gradient(to right, rgb(94, 73, 145));
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
 }
 .refresh-svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
+}
+.general-bottom {
+  width: 100%;
+  background-color: aqua;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vw;
+  padding: 1vw;
+  align-items: center;
+}
+.bottom-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.color-area-1,
+.color-area-2,
+.color-area-3,
+.color-area-4,
+.color-area-5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
