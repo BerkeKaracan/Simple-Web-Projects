@@ -22,7 +22,8 @@ The project ideas and base designs in this repository are inspired by the tutori
 | Day | Project Folder             | Tech Stack    | Status         |
 | :-: | :------------------------- | :------------ | :------------- |
 | 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released    |
-| 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 🚧 In progress |
-| 03  | `03-project-name-here`     | HTML, CSS, JS | ⏳ Pending     |
+| 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
+| 03  | `03-KanbanBoard`           | HTML, CSS, JS | 🚧 In progress |
+| 04  | `04-ExpenseTracker`        | HTML, CSS, JS | ⏳ Pending     |
 
 ---
