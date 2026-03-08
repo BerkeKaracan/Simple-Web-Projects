@@ -2,6 +2,11 @@
 
 A lightweight and functional **Kanban Board** application built with vanilla JavaScript, HTML, and CSS. This project demonstrates core web development concepts including **DOM manipulation**, **Drag-and-Drop API**, and **Responsive Design**.
 
+## 🔗 Live Demo
+
+You can access the live version of this project here:
+**[View Live Project on Vercel](https://simple-web-projects-yael.vercel.app/)** 🚀
+
 ## 🚀 Features
 
 - **Drag & Drop Interface:** Smoothly move tasks between "To Do", "In Progress", and "Done" columns.
