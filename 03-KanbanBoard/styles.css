@@ -23,6 +23,7 @@ header {
   align-items: center;
   width: 90%;
   height: auto;
+  gap: 20px;
 }
 .to-do-box,
 .in-progress-box,
@@ -37,7 +38,6 @@ header {
   align-items: center;
   padding: 1rem;
   margin: 1rem;
-  gap: 20px;
 }
 .task {
   display: flex;
