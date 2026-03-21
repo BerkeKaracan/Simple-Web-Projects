@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <main>
+      <h1>Expense Tracker</h1>
+      <section id="balance-section">
+        <div id="general-total">
+          <p>Your Balance</p>
+          <p class="price">$0.00</p>
+        </div>
+        <div id="general-situation">
+          <div class="income-box">
+            <p>Income</p>
+            <p class="price-2">$0.00</p>
+          </div>
+          <div class="expenses-box">
+            <p>Expenses</p>
+            <p class="price-2">$0.00</p>
+          </div>
+        </div>
+      </section>
+      <section id="general-transactions">
+        <div id="transactions-container"><h4>Transactions</h4></div>
+        <div id="manage-transactions-box">
+          <h4>Add Transaction</h4>
+          <div id="input-area-1">
+            <p>Description</p>
+            <input type="text" placeholder="Enter description..." />
+          </div>
+          <div id="input-area-2">
+            <p>Amount</p>
+            <input type="number" placeholder="Enter amount..." />
+            <p id="attention">Use negative (-) for expenses</p>
+          </div>
+          <button id="add-button">Add Transaction</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

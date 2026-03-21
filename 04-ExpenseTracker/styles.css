@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background: linear-gradient(90deg, #439465 0%, #83bf9b 100%);
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 80px;
+  background-color: #fafafa;
+  height: 80vh;
+  padding: 30px;
+  border-radius: 20px;
+}
+p {
+  font-size: 18px;
+  color: #282d33;
+  font-weight: 500;
+}
+#balance-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(90deg, #93be89 0%, #7ba35f 100%);
+  border-radius: 15px;
+}
+#general-total {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.price {
+  font-size: 40px;
+  font-weight: 600;
+}
+.price-2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#general-situation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.income-box,
+.expenses-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.income-box p {
+  color: #2e8b57;
+}
+.expenses-box p {
+  color: #d14343;
+}
+main h1 {
+  margin-bottom: 30px;
+}
+#general-transactions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 14px;
+  height: 100%;
+}
+#general-transactions p {
+  color: #454546;
+  font-weight: 500;
+  font-size: 13px;
+}
+#general-transactions h4 {
+  color: #2f3640;
+  font-weight: 500;
+}
+#transactions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#manage-transactions-box {
+  display: flex;
+  background-color: #f1f4f6;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100%;
+  gap: 18px;
+  border-radius: 8px;
+}
+#manage-transactions-box div {
+  width: 100%;
+}
+#general-transactions #attention {
+  font-size: 12px;
+  color: #797a7a;
+  font-weight: 500;
+  margin: 1px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 0.3px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px gray;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #2e8b57;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.25);
+}
+#add-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background-color: #31b877;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+#add-button:hover {
+  transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
+}
+#add-button:active {
+  transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

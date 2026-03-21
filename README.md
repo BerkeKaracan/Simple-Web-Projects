@@ -23,7 +23,8 @@ The project ideas and base designs in this repository are inspired by the tutori
 | :-: | :------------------------- | :------------ | :------------- |
 | 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released    |
 | 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
-| 03  | `03-KanbanBoard`           | HTML, CSS, JS | 🚧 In progress |
-| 04  | `04-ExpenseTracker`        | HTML, CSS, JS | ⏳ Pending     |
+| 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released    |
+| 04  | `04-ExpenseTracker`        | HTML, CSS, JS | 🚧 In progress |
+| 05  | `05-Bookmarker`            | HTML,CSS,JS   | ⏳ Pending     |
 
 ---
