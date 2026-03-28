@@ -1,14 +1,15 @@
-# 🚀 100 Mini Web Projects (HTML / CSS / JS)
+# 🚀 100 Mini Web Projects (React & Vanilla)
 
-A personal repository dedicated to mastering frontend fundamentals through hands-on practice. This collection contains simple, focused web projects built using HTML, CSS, and basic JavaScript.
+A personal repository dedicated to mastering modern frontend fundamentals through handson practice. This collection showcases my transition from basic HTML/CSS/JS projects to building dynamic applications using **React.js**.
 
 ## 🎯 Purpose
 
-The main goal of this repository is to build muscle memory for UI/UX implementation, responsive design, and CSS layouts (Flexbox/Grid) by writing code from scratch.
+The main goal of this repository is to build muscle memory for component-based UI development, state management, and responsive design by writing code from scratch.
 
-- Avoid copy-pasting; write every single line manually.
-- Understand CSS Flexbox, Grid, and Responsive design.
-- Grasp basic DOM manipulation and animations using JavaScript.
+- **React Mastery:** Transition from manual DOM manipulation to React's declarative UI, mastering Hooks (`useState`, `useEffect`) and component reusability.
+- **Styling in JSX:** Reinforce CSS Flexbox, Grid, and responsive design principles directly within JSX (`className`).
+- **Build from Scratch:** Avoid copy-pasting; write every single line manually to deeply understand the architecture.
+- **Problem Solving:** Develop a solid understanding of how data flows in modern web applications.
 
 ## 🤝 Acknowledgements & Credits
 
@@ -24,7 +25,7 @@ The project ideas and base designs in this repository are inspired by the tutori
 | 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released    |
 | 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
 | 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released    |
-| 04  | `04-ExpenseTracker`        | HTML, CSS, JS | 🚧 In progress |
-| 05  | `05-Bookmarker`            | HTML,CSS,JS   | ⏳ Pending     |
+| 04  | `04-ExpenseTracker`        | REACT, CSS    | 🚧 In progress |
+| 05  | `05-Bookmarker`            |               | ⏳ Pending     |
 
 ---
