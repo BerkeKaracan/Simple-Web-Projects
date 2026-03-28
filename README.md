@@ -25,7 +25,8 @@ The project ideas and base designs in this repository are inspired by the tutori
 | 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released    |
 | 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
 | 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released    |
-| 04  | `04-ExpenseTracker`        | REACT, CSS    | 🚧 In progress |
-| 05  | `05-Bookmarker`            |               | ⏳ Pending     |
+| 04  | `04-ExpenseTracker`        | REACT, CSS    | 📌 Released    |
+| 05  | `05-Bookmarker`            | REACT, CSS    | 🚧 In progress |
+| 06  | `06-FormValidator`         | REACT, CSS    | ⏳ Pending     |
 
----
+##
