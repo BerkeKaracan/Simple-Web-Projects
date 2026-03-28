@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@import "./App.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    sans-serif;
+  color: #1e272e;
+  background: linear-gradient(145deg, #b8e5c8 0%, #8fce9b 35%, #4a9d5f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+#root {
+  width: 100%;
+  max-width: min(56rem, calc(100vw - 2 * clamp(1.5rem, 4vw, 3rem)));
+  min-height: min(85vh, 900px);
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow:
+    0 12px 40px rgba(20, 50, 30, 0.18),
+    0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.5rem, 3vw, 2.25rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: clamp(1.5rem, 3vw, 2rem);
+  align-content: start;
+}
+
+#root > .header-container {
+  grid-column: 1 / -1;
+}
+
+#root > .espense-list-box {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+
+#root > form.header-espense-form {
+  grid-column: 2;
+  grid-row: 2;
+  min-width: 0;
+  align-self: start;
+}
+
+@media (max-width: 768px) {
+  #root {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    min-height: unset;
+  }
+
+  #root > .espense-list-box {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #root > form.header-espense-form {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
