@@ -5,6 +5,7 @@ export default function ExpenseForm({ addTransaction }) {
   const [amount, setAmount] = useState("");
   const onSubmit = (e) => {
     e.preventDefault();
+    if (!text.trim() || !amount) return;
 
     const newTransaction = {
       id: Math.floor(Math.random() * 100000000),
