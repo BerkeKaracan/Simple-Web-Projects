@@ -4,7 +4,7 @@ const boxes = document.querySelectorAll(
 );
 
 tasks.forEach((task) => {
-  task.addEventListener("dragstart", () => {
+  task.addEventListener("dragstart", (e) => {
     task.classList.add("is-dragging");
     const clone = task.cloneNode(true);
     clone.style.backgroundColor = "white";
