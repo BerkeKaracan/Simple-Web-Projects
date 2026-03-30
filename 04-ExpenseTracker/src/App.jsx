@@ -12,10 +12,6 @@ function App() {
   const addTransaction = (transaction) => {
     setTransactions([...transactions, transaction]);
   };
-  useEffect(() => {
-    localStorage.setItem("transactions", JSON.stringify(transactions));
-  }, [transactions]);
-
   const deleteTransaction = (id) => {
     setTransactions(
       transactions.filter((transaction) => transaction.id !== id),
