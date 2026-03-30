@@ -20,6 +20,7 @@ generateBtn.addEventListener("click", () => {
 });
 copyBtns.forEach((button, index) => {
   button.addEventListener("click", () => {
+    if (hexCodes[index].innerText === "Copied!") return;
     let copyColor = hexCodes[index].innerText;
     navigator.clipboard.writeText(copyColor);
     hexCodes[index].innerText = "Copied!";
