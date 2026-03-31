@@ -1,0 +1,166 @@
+/* Sayfa: açık gri arka plan, kart ortada */
+#root > div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+}
+
+/* Kart içi genel uyarı / başarı (alert yerine) */
+form .auth-alert-slot:empty {
+  display: none;
+}
+
+form .auth-alert {
+  padding: 0.65rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+form .auth-alert--error {
+  color: #e74c3c;
+  background: rgba(231, 76, 60, 0.08);
+  border: 1px solid rgba(231, 76, 60, 0.35);
+}
+
+form .auth-alert--success {
+  color: #1e8449;
+  background: rgba(46, 204, 113, 0.12);
+  border: 1px solid rgba(46, 204, 113, 0.4);
+}
+
+/* Kart */
+form {
+  width: 100%;
+  max-width: 28rem;
+  margin: 0;
+  background: #fff;
+  padding: 2rem 2rem 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Başlık: Register (4 alan) / Login (3 alan) — sadece CSS ile */
+form::before {
+  display: block;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1.75rem;
+  letter-spacing: -0.02em;
+}
+
+/* Slot + alanlar: 5. çocuk confirm alanı = Register; Login’de 5. çocuk buton */
+form:has(> div:nth-child(5))::before {
+  content: "Register";
+}
+
+form:has(> div:nth-child(4)):not(:has(> div:nth-child(5)))::before {
+  content: "Login";
+}
+
+/* Alan grupları */
+form > div {
+  margin-bottom: 1.25rem;
+}
+
+/* Etiketler (mevcut yapı: div > p) */
+form > div > p {
+  margin: 0 0 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Alan hatası metni — label ile input arasına JSX’te eklersen çalışır */
+form .field-error {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #e74c3c;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  font-size: 1rem;
+  border: 1px solid #dce0e4;
+  border-radius: 6px;
+  background: #fff;
+  color: #111;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input::placeholder {
+  color: #9ca3af;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.18);
+}
+
+/* Görseldeki kırmızı / yeşil durumlar — input’a class verildiğinde */
+form input.input-error {
+  border-color: #e74c3c;
+}
+
+form input.input-error:focus {
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.18);
+}
+
+form input.input-success {
+  border-color: #2ecc71;
+}
+
+form input.input-success:focus {
+  box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.2);
+}
+
+/* Mavi Register / Login butonu */
+form button[type="submit"] {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.05s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+form button[type="submit"]:active {
+  transform: scale(0.99);
+}
+
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
