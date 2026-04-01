@@ -21,6 +21,10 @@ export default function RegisterPage() {
       setError("Error: Please write your all infos");
       return;
     }
+    if (!email.includes("@") || !email.includes(".")) {
+      setError("Error: Please enter a valid email address!");
+      return;
+    }
     if (password.length < 6) {
       setError("Password is short(6)");
       return;
@@ -53,40 +57,40 @@ export default function RegisterPage() {
         )}
       </div>
       <div>
-          <p>Username</p>
-          <input
-            type="text"
-            placeholder="Enter username..."
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+        <p>Username</p>
+        <input
+          type="text"
+          placeholder="Enter username..."
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
       </div>
       <div>
-          <p>Email</p>
-          <input
-            type="text"
-            placeholder="Enter email..."
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
+        <p>Email</p>
+        <input
+          type="text"
+          placeholder="Enter email..."
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </div>
       <div>
-          <p>Password</p>
-          <input
-            type="password"
-            placeholder="Enter password..."
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+        <p>Password</p>
+        <input
+          type="password"
+          placeholder="Enter password..."
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
       </div>
       <div>
-          <p>Confirm Password</p>
-          <input
-            type="text"
-            placeholder="Confirm password..."
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-          />
+        <p>Confirm Password</p>
+        <input
+          type="text"
+          placeholder="Confirm password..."
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
+        />
       </div>
       <button type="submit">Register</button>
       <Link to="/login">Do you have a account: Login</Link>
