@@ -26,7 +26,8 @@ The project ideas and base designs in this repository are inspired by the tutori
 | 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
 | 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released    |
 | 04  | `04-ExpenseTracker`        | REACT, CSS    | 📌 Released    |
-| 05  | `05-FormValidator`         | REACT, CSS    | 🚧 In progress |
-| 06  | `06-BookmarkSaver`         | REACT, CSS    | ⏳ Pending     |
+| 05  | `05-FormValidator`         | REACT, CSS    | 📌 Released    |
+| 06  | `06-BookmarkSaver`         | REACT, CSS    | 🚧 In progress |
+| 07  | `07-PasswordGenerator`     | REACT, CSS    | ⏳ Pending     |
 
 ##
