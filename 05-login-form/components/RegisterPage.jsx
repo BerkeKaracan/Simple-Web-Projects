@@ -18,20 +18,20 @@ export default function RegisterPage() {
     setSuccess("");
 
     if (!username || !email || !password || !confirmPassword) {
-      setError("Error: Please write your all infos");
+      setError("Please fill in all fields.");
       return;
     }
     if (!email.includes("@") || !email.includes(".")) {
-      setError("Error: Please enter a valid email address!");
+      setError("Please enter a valid email address.");
       return;
     }
     if (password.length < 6) {
-      setError("Password is short(6)");
+      setError("Password must be at least 6 characters long.");
       return;
     }
 
     if (password != confirmPassword) {
-      setError("Error: Passwords not same !");
+      setError("The passwords do not match.");
       return;
     }
     const newUser = {
@@ -40,7 +40,7 @@ export default function RegisterPage() {
       password: password,
     };
     localStorage.setItem("user", JSON.stringify(newUser));
-    setSuccess("Registered !");
+    setSuccess("Registration completed successfully.");
   };
   return (
     <form onSubmit={handleRegister}>
@@ -93,7 +93,7 @@ export default function RegisterPage() {
         />
       </div>
       <button type="submit">Register</button>
-      <Link to="/login">Do you have a account: Login</Link>
+      <Link to="/login">Already have an account? Log in</Link>
     </form>
   );
 }

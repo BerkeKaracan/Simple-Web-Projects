@@ -22,13 +22,13 @@ export default function LoginPage() {
     }
 
     if (!storedUser) {
-      setError("You don't have an account. Register !");
+      setError("No account found. Please register first.");
       return;
     }
     if (email === storedUser.email && password === storedUser.password) {
-      setSuccess(`WELCOME ${storedUser.username}`);
+      setSuccess(`Welcome, ${storedUser.username}!`);
     } else {
-      setError("Your password or email is wrong !");
+      setError("Incorrect email or password.");
     }
   };
   return (
@@ -73,7 +73,7 @@ export default function LoginPage() {
           />
       </div>
       <button type="submit">Login</button>
-      <Link to="/register">Don't you have a account: Register</Link>
+        <Link to="/register">Don't have an account? Register</Link>
     </form>
   );
 }
