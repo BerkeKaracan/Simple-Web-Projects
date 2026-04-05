@@ -14,32 +14,37 @@ The main goal of this repository is to build solid muscle memory and deeply unde
 ## 🤝 Acknowledgements & Credits
 
 The core ideas and base designs for the initial phases were inspired by the amazing tutorials from **[Codesistency]**.
+
 - **Original Source:** [https://www.youtube.com/watch?v=bW58B6y81y8]
 - **Note:** None of the code in this repository was cloned or forked. Everything is built manually by me for educational purposes, evolving beyond the original tutorials in the later phases.
 
 ## 📂 Projects Directory
 
 ### 🧱 Phase 1: The Foundations (HTML, CSS, JS)
+
 Building the core logic and manual DOM manipulation.
 
-| Day | Project Folder             | Tech Stack    | Status         |
-| :-: | :------------------------- | :------------ | :------------- |
-| 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released    |
-| 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released    |
-| 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released    |
+| Day | Project Folder             | Tech Stack    | Status      |
+| :-: | :------------------------- | :------------ | :---------- |
+| 01  | `01-QuizGame`              | HTML, CSS, JS | 📌 Released |
+| 02  | `02-ColorPaletteGenerator` | HTML, CSS, JS | 📌 Released |
+| 03  | `03-KanbanBoard`           | HTML, CSS, JS | 📌 Released |
 
 ### ⚛️ Phase 2: The React Transition
+
 Shifting to component-based architecture and state management.
 
-| Day | Project Folder             | Tech Stack    | Status         |
-| :-: | :------------------------- | :------------ | :------------- |
-| 04  | `04-ExpenseTracker`        | REACT, CSS    | 📌 Released    |
-| 05  | `05-login-form`            | REACT, CSS    | 📌 Released    |
+| Day | Project Folder      | Tech Stack | Status      |
+| :-: | :------------------ | :--------- | :---------- |
+| 04  | `04-ExpenseTracker` | REACT, CSS | 📌 Released |
+| 05  | `05-login-form`     | REACT, CSS | 📌 Released |
 
 ### 🚀 Phase 3: Modern Architecture
+
 Next-generation web development with utility-first CSS and React frameworks.
 
-| Day | Project Folder             | Tech Stack            | Status         |
-| :-: | :------------------------- | :-------------------- | :------------- |
-| 06  | `06-BookmarkSaver`  | Next.js, Tailwind CSS | 🚧 In progress |
-| 07  | `07-PasswordGenerator`      | Next.js, Tailwind CSS | ⏳ Pending     |
+| Day | Project Folder          | Tech Stack            | Status         |
+| :-: | :---------------------- | :-------------------- | :------------- |
+| 06  | `06-bookmark-saver`     | Next.js, Tailwind CSS | 📌 Released    |
+| 07  | `07-password-generator` | Next.js, Tailwind CSS | 🚧 In progress |
+| 08  | `08-todo-app`           | Next.js, Tailwind CSS | ⏳ Pending     |
