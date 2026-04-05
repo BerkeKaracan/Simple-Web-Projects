@@ -5,7 +5,7 @@ A robust, production-ready web application designed to save, manage, and persist
 ## 🌍 Live Demo & Deployment
 
 This project is seamlessly deployed on **Vercel** with CI/CD integration.  
-**Check out the live application:** [https://simple-web-projects-06-bookmark-sav.vercel.app/]
+**Check out the live application:** [Live Demo](https://simple-web-projects-06-bookmark-sav.vercel.app/)
 
 ---
 
@@ -36,7 +36,7 @@ To run this project locally, execute the following commands in your terminal:
 git clone [https://github.com/BerkeKaracan/Simple-Web-Projects.git]
 
 # 2. Navigate to the workspace
-cd bookmark-saver
+cd 06-bookmark-saver
 
 # 3. Install dependencies (npm or pnpm)
 npm install
