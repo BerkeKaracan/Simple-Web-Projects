@@ -5,7 +5,7 @@ A robust, production-ready web application designed to save, manage, and persist
 ## 🌍 Live Demo & Deployment
 
 This project is seamlessly deployed on **Vercel** with CI/CD integration.  
-**Check out the live application:** [Bookmark Saver Live](#) *(Replace with your actual Vercel link)*
+**Check out the live application:** [https://simple-web-projects-06-bookmark-sav.vercel.app/]
 
 ---
 

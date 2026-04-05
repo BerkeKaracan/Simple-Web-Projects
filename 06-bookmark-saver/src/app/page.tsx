@@ -90,7 +90,7 @@ export default function Page() {
           className="flex h-auto w-full max-w-md flex-col items-center gap-3 rounded-lg border border-none bg-cyan-400 p-3 shadow-md md:w-96"
         >
           <p className="font-sans text-base font-semibold">Bookmarks</p>
-          {bookmarks.length === 0 && <p>Henüz site eklemedin şef...</p>}
+          {bookmarks.length === 0 && <p>You can add a bookmark on left...</p>}
           {bookmarks.map((bookmark) => (
             <div
               key={bookmark.id}
