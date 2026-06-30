@@ -56,5 +56,6 @@ Handling form submissions and basic server operations.
 
 | Project | Project Folder     | Tech Stack                    | Status         |
 | :-----: | :----------------- | :---------------------------- | :------------- |
-|   09    | `09-contact-form`  | PHP, Vanilla JS, Tailwind CSS | 🚧 In progress |
-|   10    | `10-pricing-cards` | PHP, Vanilla JS, Tailwind CSS | ⏳ Pending     |
+|   09    | `09-contact-form`  | PHP, Vanilla JS, Tailwind CSS | 📌 Released    |
+|   10    | `10-pricing-cards` | PHP, Vanilla JS, Tailwind CSS | 🚧 In progress |
+|   11    | `11-team-members`  | PHP, Vanilla JS, Tailwind CSS | ⏳ Pending     |

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Contact Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      input:-webkit-autofill,
+      textarea:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #1e293b inset !important;
+        -webkit-text-fill-color: #f8fafc !important;
+        transition: background-color 5000s ease-in-out 0s;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-[#0f172a] text-slate-200 min-h-screen flex items-center justify-center p-4 sm:p-8 relative overflow-hidden font-sans"
+  >
+    <div
+      class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[100px] pointer-events-none"
+    ></div>
+    <div
+      class="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[100px] pointer-events-none"
+    ></div>
+
+    <div
+      class="w-full max-w-5xl bg-slate-900/60 backdrop-blur-xl border border-slate-700/50 rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row relative z-10"
+    >
+      <div
+        class="w-full md:w-2/5 bg-gradient-to-br from-blue-600 to-violet-700 p-10 md:p-12 text-white flex flex-col justify-between"
+      >
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+            Let's talk.
+          </h2>
+          <p class="text-blue-100 text-lg mb-10 leading-relaxed">
+            We'd love to hear from you. Fill out the form and we'll get back to
+            you as soon as possible.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center border border-white/20"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-blue-100"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path>
+                </svg>
+              </div>
+              <span class="text-blue-50 font-medium">+90 (555) 123 45 67</span>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center border border-white/20"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-blue-100"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </div>
+              <span class="text-blue-50 font-medium">hello@example.com</span>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center border border-white/20"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-blue-100"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <span class="text-blue-50 font-medium">Istanbul, Turkey</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full md:w-3/5 p-10 md:p-14 bg-slate-800/30">
+        <form id="contactForm" class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-2">
+              <label
+                for="name"
+                class="text-sm font-semibold text-slate-400 ml-1"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="John Doe"
+                class="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-slate-200 placeholder-slate-600"
+              />
+            </div>
+
+            <div class="space-y-2">
+              <label
+                for="email"
+                class="text-sm font-semibold text-slate-400 ml-1"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="john@example.com"
+                class="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-slate-200 placeholder-slate-600"
+              />
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <label
+              for="message"
+              class="text-sm font-semibold text-slate-400 ml-1"
+              >Your Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="How can we help you?"
+              class="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-slate-200 placeholder-slate-600 resize-none"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            id="submitBtn"
+            class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-4 rounded-xl transition-all shadow-lg shadow-blue-900/20 flex justify-center items-center gap-2"
+          >
+            <span>Send Message</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </form>
+
+        <div
+          id="statusMessage"
+          class="mt-6 p-4 rounded-xl text-center text-sm font-medium hidden transition-all"
+        ></div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const formData = new FormData(this);
+          const statusDiv = document.getElementById("statusMessage");
+          const submitBtn = document.getElementById("submitBtn");
+          const originalBtnContent = submitBtn.innerHTML;
+
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = `
+        <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        Sending...
+      `;
+          submitBtn.classList.replace("bg-blue-600", "bg-blue-800");
+
+          statusDiv.classList.add("hidden");
+
+          fetch("process.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              statusDiv.classList.remove("hidden");
+              if (data.status === "success") {
+                statusDiv.className =
+                  "mt-6 p-4 rounded-xl text-center text-sm font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 block";
+                statusDiv.textContent = data.message;
+                this.reset();
+              } else {
+                statusDiv.className =
+                  "mt-6 p-4 rounded-xl text-center text-sm font-medium bg-rose-500/10 text-rose-400 border border-rose-500/20 block";
+                statusDiv.textContent = data.message;
+              }
+            })
+            .catch((error) => {
+              statusDiv.classList.remove("hidden");
+              statusDiv.className =
+                "mt-6 p-4 rounded-xl text-center text-sm font-medium bg-rose-500/10 text-rose-400 border border-rose-500/20 block";
+              statusDiv.textContent =
+                "A server error occurred while sending the message.";
+            })
+            .finally(() => {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalBtnContent;
+              submitBtn.classList.replace("bg-blue-800", "bg-blue-600");
+            });
+        });
+    </script>
+  </body>
+</html>
