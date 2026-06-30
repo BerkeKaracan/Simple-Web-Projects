@@ -44,16 +44,17 @@ Shifting to component-based architecture and state management.
 
 Next-generation web development with utility-first CSS and React frameworks.
 
-| Project | Project Folder          | Tech Stack            | Status         |
-| :-----: | :---------------------- | :-------------------- | :------------- |
-|   06    | `06-bookmark-saver`     | Next.js, Tailwind CSS | 📌 Released    |
-|   07    | `07-password-generator` | Next.js, Tailwind CSS | 📌 Released    |
-|   08    | `08-todo-app`           | Next.js, Tailwind CSS | 🚧 In progress |
+| Project | Project Folder          | Tech Stack            | Status      |
+| :-----: | :---------------------- | :-------------------- | :---------- |
+|   06    | `06-bookmark-saver`     | Next.js, Tailwind CSS | 📌 Released |
+|   07    | `07-password-generator` | Next.js, Tailwind CSS | 📌 Released |
+|   08    | `08-todo-app`           | Next.js, Tailwind CSS | 📌 Released |
 
 ### 🐘 Phase 4: Basic Server-Side Scripting (PHP)
 
 Handling form submissions and basic server operations.
 
-| Project | Project Folder    | Tech Stack                    | Status     |
-| :-----: | :---------------- | :---------------------------- | :--------- |
-|   09    | `09-contact-form` | PHP, Vanilla JS, Tailwind CSS | ⏳ Pending |
+| Project | Project Folder     | Tech Stack                    | Status         |
+| :-----: | :----------------- | :---------------------------- | :------------- |
+|   09    | `09-contact-form`  | PHP, Vanilla JS, Tailwind CSS | 🚧 In progress |
+|   10    | `10-pricing-cards` | PHP, Vanilla JS, Tailwind CSS | ⏳ Pending     |
